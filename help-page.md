@@ -1,3 +1,10 @@
+---
+layout: default
+title: Expression Atlas Help Page
+---
+
+<div class="columns small-10" markdown="1">
+
 ## Welcome to Expression Atlas help
 
 
@@ -293,6 +300,9 @@ The **Supplementary Information** tab includes:
 The **Downloads** tab contains all the files that you can download such as: i) RNA-seq raw counts or
 normalised microarray intensity data, ii) all statistical analytics results for all comparisons in the
 experiment, iii) file containing the R object representing the experiment.
+</div>
+
+<div class="columns small-2" markdown="1">
 
 #### More help
 
@@ -301,3 +311,4 @@ experiment, iii) file containing the R object representing the experiment.
 * [Frequently asked questions](https://www.ebi.ac.uk/gxa/FAQ.html)
 * [Atlas data in R](https://www.ebi.ac.uk/gxa/help/r-data-objects.html)
 * [Download Expression Atlas data](https://www.ebi.ac.uk/gxa/download.html)
+</div>
