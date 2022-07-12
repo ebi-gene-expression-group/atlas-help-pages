@@ -12,13 +12,17 @@ title: Single Cell Expression Atlas Help Page
 
 ### How to search in Single Cell Expression Atlas
 
-Here you can use the **Gene search box** to search whether a gene comprises part of a cell type expression profile. You may search its gene ID via its gene symbol or name (e.g. _APOA2_). A dropdown box will appear showing related gene symbols and species-specific results to choose from.
+There are two main search windows in Single Cell Expression Atlas (SCEA) – on the Home page and in the Gene search tab.
+ 
+The Home page search window allows searches using either gene names or symbols directly or metadata queries (e.g. a cell type name, disease, organism part), Gene search tab allows gene searches only.
+
+**Gene searches** allows you to discover whether a genea gene comprises part of a cell type expression profile. You may search its gene ID via its gene symbol or name (e.g. _APOA2_). A dropdown box will appear showing related gene symbols and species-specific results to choose from.
 
 You can also specify which species (e.g. _Mus musculus_) you are interested in. Use the **Species drop down** to specify your organism of interest. Once your selection is made, searching for a gene ID will restrict suggestions to the specified species.
 
 ![Single Cell Expression Atlas home page search](assets/img/scxa/home_search.png)
 
-#### Search Results
+#### Gene Search Results
 
 Once you have selected the gene symbol of interest click **Search** and this will load a new page of all experiments where your selected gene is expressed.
 
@@ -27,6 +31,28 @@ Search results can be filtered using the selection criteria along the left hand 
 Additionally, by clicking on the **"Marker gene"** filter you can return search results based on whether your gene of interest comprises part of the specific expression profile for a cluster.
 
 ![Single Cell Expression Atlas home page search results](assets/img/scxa/search_results_page.png)
+
+**Metadata search** allows you to find cell type expression profiles from experiments with matching annotations. This can be for example a disease term, a particular cell type or tissue/organ that you’re interested in. Start by typing your search term, e.g. ‘cancer’,  into the main page search box and select a term from the autocomplete options that appear below.
+ 
+![Search_box_with_metadata_suggestions](assets/img/scxa/SCEA_Mseach.png)
+ 
+#### Metadata Search Results
+ 
+Once you’ve entered your keyword and clicked the ‘Search’ button, the Cell Type Wheel, an interactive visualization tool, will appear. If you haven’t specified any particular organism, the wheel will display results from all organisms for which there is relevant data in SCEA. Hovering over any section of the wheel will display the full label.
+ 
+![CTW_cancer_result_with_section_label](assets/img/scxa/SCEA_CTWmain.png)
+ 
+Clicking on any section of the inner rings (e.g. Homo sapiens ‘brain’) of the wheel will filter and reorganise the display to show just that subset of the results. You can navigate the results display and go back to the previous display(s) using the query Path above the wheel.
+
+![CTW_cancer_result_zoom_in](assets/img/scxa/SCEA_CTW_zoom.png)
+
+Clicking on a particular cell type (e.g. ‘astrocyte’) in the outermost ring of the wheel will bring up a Cell Type Marker Gene heatmap.
+ 
+![CTW_cancer_result_cell_type_heatmap](assets/img/scxa/SCEA_CTW_heatmap.png)
+ 
+The heatmap displays the top five marker genes for your selected cell type in each experiment in SCEA that contains the relevant data. Clicking on the experiment accession number will take you to that experiment’s page. You can download the cell type marker gene heatmap either as an image file or as a spreadsheet using the Download button.
+
+
 
 ### Featured and Latest Experiments
 
