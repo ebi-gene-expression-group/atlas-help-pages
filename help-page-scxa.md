@@ -34,7 +34,7 @@ Additionally, by clicking on the **"Marker gene"** filter you can return search 
 
 **Metadata search** allows you to find cell type expression profiles from experiments with matching annotations. This can be for example a disease term, a particular cell type or tissue/organ that you’re interested in. Start by typing your search term, e.g. ‘cancer’,  into the main page search box and select a term from the autocomplete options that appear below.
  
-![Search_box_with_metadata_suggestions](assets/img/scxa/SCEA_Mseach.png)
+![Search_box_with_metadata_suggestions](assets/img/scxa/SCEA_Msearch.png)
  
 #### Metadata Search Results
  
