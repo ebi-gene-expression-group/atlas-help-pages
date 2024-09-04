@@ -2,13 +2,38 @@
 layout: default
 title: Single Cell Expression Atlas Help Page
 ---
-
+<style>
+.anndata {
+  background-color: indianred;
+  color: white;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 2px;
+  display: inline-block;
+}
+</style>
 <div class="columns small-10" markdown="1">
 
 ## Welcome to Single Cell Expression Atlas help
 
 ### EBI Train Online:  
 [Life cell by cell: Introduction to Single Cell Expression Atlas](https://www.ebi.ac.uk/training/online/course/life-cell-cell-introduction-single-cell-expression-atlas)
+
+### Data in Single Cell Expression Atlas
+
+The Single Cell Expression Atlas knowledge-base contains eligible single-cell and single-nucleus RNA-seq experiments from a range of diverse species, these data have been re-analysed by SCEA using standardised analysis pipeline and periodically updated against new Ensembl genome releases.
+
+#### External Data
+<div display="flex">Since September 2024, we have also included a limited number of selected externally analysed human datasets to the SCEA collection. These datasets are marked with an 'E' icon <div color="white" data-toggle="tooltip" data-placement="bottom" title="Externally analysed data" class="anndata">E</div>.
+External Datasets have not been re-analysed by SCEA using our standardised pipeline but rather display the results of the analyses performed by the authors themselves. As a result, these datasets may not contain all the Results tabs and/or plot options that are usually present for the datasets reanalysed by SCEA.
+To further visually distinguish the External Datasets from the standard reanalysed data, the experiment page header has a yellow background in addition to the
+<div color="white" data-toggle="tooltip" data-placement="bottom" title="Externally analysed data" class="anndata">E</div> icon.
+</div>
+
+![Single Cell Expression Atlas External Data Page](assets/img/SCEA_anndata_experiment_page.png)
 
 ### How to search in Single Cell Expression Atlas
 
