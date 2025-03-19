@@ -307,8 +307,8 @@ experiment, iii) file containing the R object representing the experiment.
 #### More help
 
 
-* [About Expression Atlas](https://www.ebi.ac.uk/gxa/about.html)
-* [Frequently asked questions](https://www.ebi.ac.uk/gxa/FAQ.html)
-* [Atlas data in R](https://www.ebi.ac.uk/gxa/help/r-data-objects.html)
-* [Download Expression Atlas data](https://www.ebi.ac.uk/gxa/download.html)
+* <a target="_parent" href="https://www.ebi.ac.uk/gxa/about.html">About Expression Atlas</a>
+* <a target="_parent" href="https://www.ebi.ac.uk/gxa/FAQ.html">Frequently asked questions</a>
+* <a target="_parent" href="https://www.ebi.ac.uk/gxa/help/r-data-objects.html">Atlas data in R</a>
+* <a target="_parent" href="https://www.ebi.ac.uk/gxa/download.html">Download Expression Atlas data</a>
 </div>
