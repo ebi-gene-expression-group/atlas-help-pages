@@ -101,7 +101,7 @@ only genes expressed above this level are displayed.
 #### Marker genes search
 
 By default, top 50 (or minimum one per condition) marker genes (rows) across all conditions (columns) studied in the experiment are
-displayed. Unccheck the **Marker genes** option to show genes with highest expression first.
+displayed. Uncheck the **Marker genes** option to show genes with highest expression first.
 
 ![most specific feature](assets/img/marker_genes_box.png)
 
