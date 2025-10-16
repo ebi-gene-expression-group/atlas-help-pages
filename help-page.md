@@ -96,14 +96,14 @@ for each gene in each tissue (or other condition).
 Use the **Expression value** box to specify a different minimum level (the default one is 0.5) so
 only genes expressed above this level are displayed.
 
-![set minimum expression level](assets/img/specify_expression_level.png)
+![set minimum expression level](assets/img/specify_expression_level_new.png)
 
-#### Most specific search
+#### Marker genes search
 
-By default, the 50 most specifically expressed genes (rows) across all conditions (columns) studied are
-displayed. Unclick the **Most specific** option to show genes with highest expression first.
+By default, top 50 (or minimum one per condition) marker genes (rows) across all conditions (columns) studied in the experiment are
+displayed. Uncheck the **Marker genes** option to show genes with highest expression first.
 
-![most specific feature](assets/img/most_specific.png)
+![most specific feature](assets/img/marker_genes_box.png)
 
 #### Searching with genes
 
