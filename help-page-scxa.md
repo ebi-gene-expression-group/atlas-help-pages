@@ -130,7 +130,7 @@ Here you can view the results of the data analysis. This comprises of two visual
 
 These are found in the **t-SNE plots** tab under **Results**. [t-SNE plots](https://lvdmaaten.github.io/tsne/) are a useful way of visualising highly complex data in a 2D space. Although the size and distance between clusters is not very informative, manipulating the t-SNE perplexity value allows you to re-display the data in different ways.
 
-The number of clusters (_k_ value) shows the output of the [Scanpy clustering algorithm](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.louvain.html). Scanpy clusters cells into subgroups using the Louvain algorithm. This also colours the data to allow easier visualisation of different sub-populations within a dataset.
+The number of clusters (_k_ value) shows the output of the [Scanpy clustering algorithm](https://scanpy.readthedocs.io/en/stable/generated/scanpy.tl.leiden.html). Scanpy clusters cells into subgroups using the Leiden algorithm. This also colours the data to allow easier visualisation of different sub-populations within a dataset.
 
 It is also possible to colour the clusters by metadata! The colour legend for each group of cells is displayed along the bottom of the t-SNE plot. The metadata used to colour the clusters is derived from different experimental groups described by the authors. This is displayed in the **Experiment Design** tab along the top of the results page.
 
@@ -138,7 +138,7 @@ It is also possible to colour the clusters by metadata! The colour legend for ea
 
 You can hover over a single data point (cell) and a tool-tip will pop up. This displays the **single cell identifier** (a unique reference for that cell) and the **cluster ID** (which other cells share similar gene expression profiles). Additional information can include **cell type**: submitted cell type prior to sequencing analysis and/or the **inferred cell type**: cell type inferred by sequencing analysis based on gene expression profile.
 
-t-SNE plots are calculated at a range of perplexities by the analysis pipeline. The central value is selected by default. Clustering is performed over range of values for resolution in Louvain clustering by Scanpy (producing variable numbers of clusters), and by default the number of clusters corresponding to the default resolution of 1 is selected.
+t-SNE plots are calculated at a range of perplexities by the analysis pipeline. The central value is selected by default. Clustering is performed over range of values for resolution in Leiden clustering by Scanpy (producing variable numbers of clusters), and by default the number of clusters corresponding to the default resolution of 1 is selected.
 
 ##### t-SNE plot with gene expression
 
@@ -182,7 +182,7 @@ The Downloads tab contains all the files that you can download:
     2.  IDF file (Investigation Design Format) - [Creating an IDF](https://www.ebi.ac.uk/arrayexpress/help/creating_an_idf.html)
     3.  Experiment design file containing the sample characteristics and experiment variable summary table
 2.  **Results files:**
-    1.  Clustering file: output of Scanpy analysis for clustering of filtered cells for the different _k_ values [(Scanpy clustering algorithm)](https://scanpy.readthedocs.io/en/latest/api/scanpy.api.tl.louvain.html)
+    1.  Clustering file: output of Scanpy analysis for clustering of filtered cells for the different _k_ values [(Scanpy clustering algorithm)](https://scanpy.readthedocs.io/en/stable/generated/scanpy.tl.leiden.html)
     2.  Filtered quantification file: provides the measured gene expression in CPMs for each filtered cell alongside gene and cell ID
     3.  Marker gene files: expression values for each marker gene per cluster
     4.  Normalised counts files
